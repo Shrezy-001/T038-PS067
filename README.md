@@ -401,4 +401,6 @@ The PS-067 specification describes a sample evaluation scale of 120 courses, 2,5
 
 ## Project summary
 
-PS-067 brings together constraint-based timetable generation, hall packing, student seating, invigilator workload allocation, command-driven schedule changes and report generation in a modular Python application. Its purpose is to provide a reproducible backend workflow for university examination planning and to make scheduling decisions and detected violations inspectable through structured output files...
+PS-067 brings together constraint-based timetable generation, hall packing, student seating, invigilator workload allocation, command-driven schedule changes and report generation in a modular Python application. Its purpose is to provide a reproducible backend workflow for university examination planning and to make scheduling decisions and detected violations inspectable through structured output files.
+
+Project Demo Video: https://drive.google.com/file/d/1QAN5Ltid7LVGGWUyfkNepVoOmL4cLouJ/view?usp=sharing
