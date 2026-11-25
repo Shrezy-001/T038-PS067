@@ -4,9 +4,9 @@ import os
 class HallReport(BaseReport):
     ALLOCATION_FIELDS = ["date", "session", "hall_id", "building", "capacity",
                          "course_codes", "student_count", "duration_hours", "extended_end"]
-    SEATING_FIELDS = ["date", "session", "hall_id", "student_id", "register_number",
+    SEATING_FIELDS = ["date", "session", "hall_id", "course_code", "student_id", "register_number",
                       "student_name", "row", "column", "seat_number",
-                      "special_needs", "priority_seating"]
+                      "special_needs", "priority_seating", "status"]
 
     def generate(self, hall_assignments, seating_plan, data):
         allocations = []
