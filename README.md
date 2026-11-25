@@ -1,2 +1,2 @@
 # T038-PS067
-University Exam Timetabling and Hall Allocation Engine
+Python-based university examination timetabling and hall allocation engine with student clash prevention, invigilator allocation and automated scheduling.
