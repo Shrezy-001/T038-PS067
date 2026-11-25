@@ -58,7 +58,9 @@ def run(data_dir="data", output_dir="output", command_file=None):
     )
 
     commands_path = command_file or os.path.join(data_dir, "change_commands.csv")
-    unavailable = planned_hall_closures(commands_path, data)
+    # Initial timetable must not be influenced by future change commands.
+    # Hall closures are applied sequentially by ChangeManager.
+    unavailable = set()
     scheduler = ExamScheduler(data, unavailable_halls=unavailable)
     assignments = scheduler.generate()
     print(f"Scheduled {len(assignments)} of {len(data['courses'])} courses.")

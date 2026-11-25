@@ -40,12 +40,12 @@ class ConstraintChecker:
 
         # One full calendar day between core exams in the same department-semester.
         if int(course.get("credits", 0)) >= 4:
-            cohort = (course.get("department"), str(course.get("semester", "")))
+            cohort = (course.get("programme", course.get("department")), str(course.get("semester", "")))
             current = datetime.strptime(date, "%Y-%m-%d").date()
             for assignment in assignments:
                 other = self.data["course_by_code"].get(assignment.course_code, {})
                 other_cohort = (
-                    other.get("department"),
+                    other.get("programme", other.get("department")),
                     str(other.get("semester", ""))
                 )
                 if other_cohort != cohort or int(other.get("credits", 0)) < 4:
@@ -53,7 +53,7 @@ class ConstraintChecker:
                 previous = datetime.strptime(assignment.date, "%Y-%m-%d").date()
                 if abs((current - previous).days) < 2:
                     if allow_gap_violation:
-                        soft.append("BR-04: core exams have fewer than one full day between them")
+                        soft.append("BR-02: core exams have fewer than one full calendar day between them")
                     else:
                         return False, [], "core-course gap rule"
 
