@@ -68,9 +68,11 @@ def run(data_dir="data", output_dir="output", command_file=None):
     hall_allocator = HallAllocator(data)
     hall_assignments = hall_allocator.allocate(assignments, unavailable=unavailable)
     seating_plan = SeatingEngine(data).create_seating_plan(hall_assignments)
-    roster = InvigilatorAllocator(data).allocate(hall_assignments)
+    invigilator_allocator = InvigilatorAllocator(data)
+    roster = invigilator_allocator.allocate(hall_assignments)
 
-    violations = list(scheduler.violations) + list(hall_allocator.violations)
+    violations = (list(scheduler.violations) + list(hall_allocator.violations)
+                  + list(invigilator_allocator.violations))
 
     change_manager = ChangeManager(
         data, assignments, hall_assignments, roster,

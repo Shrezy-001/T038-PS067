@@ -1,11 +1,10 @@
 VIOLATIONS REPORT
 ======================================================================
 
-Total violations: 1
-HARD: 1
+Total violations: 0
+HARD: 0
 SOFT: 0
 WARNING: 0
 INFO: 0
 
-[HARD] BR-10/11 | B2
-  UNSTAFFED: no eligible chief available
+No violations recorded.
