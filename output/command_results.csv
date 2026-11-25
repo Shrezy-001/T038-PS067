@@ -1,0 +1,9 @@
+sequence,command,target,status,message
+1,POSTPONE,CSE101,POSTPONED,"{""affected_sessions"": [[""2026-12-01"", ""FN""], [""2026-12-03"", ""FN""]], ""course_code"": ""CSE101"", ""from"": [""2026-12-01"", ""FN""], ""status"": ""POSTPONED"", ""to"": [""2026-12-03"", ""FN""]}"
+2,HALL_UNAVAILABLE,H03,HALL_MARKED_UNAVAILABLE,"{""affected_sessions"": [[""2026-12-02"", ""AN""], [""2026-12-02"", ""FN""]], ""date"": ""2026-12-02"", ""hall_id"": ""H03"", ""session"": ""ALL"", ""status"": ""HALL_MARKED_UNAVAILABLE""}"
+3,ADD_LATE_REGISTRANT,LATE001,ADDED,"{""affected_sessions"": [[""2026-12-03"", ""FN""]], ""course_code"": ""CSE101"", ""status"": ""ADDED"", ""student_id"": ""LATE001""}"
+4,ADD_LATE_REGISTRANT,LATE002,ADDED,"{""affected_sessions"": [[""2026-12-02"", ""AN""]], ""course_code"": ""ISE202"", ""status"": ""ADDED"", ""student_id"": ""LATE002""}"
+5,POSTPONE,ECE301,POSTPONED,"{""affected_sessions"": [[""2026-12-01"", ""FN""], [""2026-12-03"", ""AN""]], ""course_code"": ""ECE301"", ""from"": [""2026-12-01"", ""FN""], ""status"": ""POSTPONED"", ""to"": [""2026-12-03"", ""AN""]}"
+6,HALL_UNAVAILABLE,H10,HALL_MARKED_UNAVAILABLE,"{""affected_sessions"": [[""2026-12-09"", ""AN""], [""2026-12-09"", ""FN""]], ""date"": ""2026-12-09"", ""hall_id"": ""H10"", ""session"": ""ALL"", ""status"": ""HALL_MARKED_UNAVAILABLE""}"
+7,ADD_LATE_REGISTRANT,LATE003,REJECTED_UNKNOWN_COURSE,"{""course_code"": ""AIDS?"", ""status"": ""REJECTED_UNKNOWN_COURSE""}"
+8,ADD_LATE_REGISTRANT,LATE004,ADDED,"{""affected_sessions"": [[""2026-12-02"", ""AN""]], ""course_code"": ""ME402"", ""status"": ""ADDED"", ""student_id"": ""LATE004""}"

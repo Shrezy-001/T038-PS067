@@ -1,0 +1,19 @@
+hall_id,hall_name,capacity,rows,columns,building,floor
+H01,Examination Hall 01,180,21,9,B1,GROUND
+H02,Examination Hall 02,160,20,8,B1,GROUND
+H03,Examination Hall 03,150,19,8,B1,FIRST
+H04,Examination Hall 04,140,18,8,B1,SECOND
+H05,Examination Hall 05,130,18,8,B1,FIRST
+H06,Examination Hall 06,120,17,8,B1,SECOND
+H07,Examination Hall 07,110,16,7,B2,GROUND
+H08,Examination Hall 08,100,15,7,B2,GROUND
+H09,Examination Hall 09,90,15,6,B2,FIRST
+H10,Examination Hall 10,85,14,7,B2,SECOND
+H11,Examination Hall 11,80,14,6,B2,FIRST
+H12,Examination Hall 12,75,13,6,B2,SECOND
+H13,Examination Hall 13,70,13,6,B3,GROUND
+H14,Examination Hall 14,65,12,6,B3,GROUND
+H15,Examination Hall 15,60,12,5,B3,FIRST
+H16,Examination Hall 16,55,11,5,B3,SECOND
+H17,Examination Hall 17,50,11,5,B3,FIRST
+H18,Examination Hall 18,45,10,5,B3,SECOND

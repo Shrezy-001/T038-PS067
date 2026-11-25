@@ -1,0 +1,9 @@
+sequence,command,target,parameter,description
+1,POSTPONE,CSE101,2026-12-01|FN,Postpone one regular course from its original session
+2,HALL_UNAVAILABLE,H03,2026-12-02|ALL,Mark a hall unavailable for the specified date
+3,ADD_LATE_REGISTRANT,LATE001,CSE101,Add late student to a course if no clash exists
+4,ADD_LATE_REGISTRANT,LATE002,ISE202,Add another late student
+5,POSTPONE,ECE301,2026-12-03|AN,Postpone another course
+6,HALL_UNAVAILABLE,H10,2026-12-09|ALL,Mark another hall unavailable
+7,ADD_LATE_REGISTRANT,LATE003,AIDS?,Illustrative invalid target; engine should reject unknown course cleanly
+8,ADD_LATE_REGISTRANT,LATE004,ME402,Add final late student

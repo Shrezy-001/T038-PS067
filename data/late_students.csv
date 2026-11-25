@@ -1,0 +1,6 @@
+student_id,register_number,name,programme,department,semester,special_needs,backlog_consent
+LATE001,LATE001,Late Student 01,EEE,EEE,2,NO,NO
+LATE002,LATE002,Late Student 02,AI,AI,3,NO,NO
+LATE003,LATE003,Late Student 03,BT,BT,4,NO,NO
+LATE004,LATE004,Late Student 04,ECE,ECE,5,NO,NO
+LATE005,LATE005,Late Student 05,CE,CE,6,NO,NO

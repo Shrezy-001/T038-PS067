@@ -1,0 +1,10 @@
+VIOLATIONS REPORT
+======================================================================
+
+Total violations: 0
+HARD: 0
+SOFT: 0
+WARNING: 0
+INFO: 0
+
+No violations recorded.
